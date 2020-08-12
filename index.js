@@ -230,3 +230,7 @@ const usersArray = [
     }
   }
 ]
+
+  for (let user of usersArray) {
+    console.log(user['email']);
+  }
